@@ -1,0 +1,114 @@
+body {
+  font-family: "Open Sans";
+}
+
+header {
+  background: url(header.jpg);
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+nav ul {
+  position: absolute;
+}
+
+nav ul li {
+  display: inline;
+  list-style-type: none;
+  position: relative;
+  padding-right: 5px;
+  color: #083452;
+}
+
+header .right {
+  right: 115px;
+  top: 12px;
+  font-weight: bold;
+}
+
+#blog_link {
+  bottom: 15px;
+}
+
+header h1 {
+  position: absolute;
+  top: 28%;
+  right: 14%;
+  font-size: 76px;
+  color: white;
+  font-weight: 100;
+}
+
+header h6 {
+  position: absolute;
+  top: 50%;
+  right: 36%;
+  font-size: inherit;
+  color: #083452;
+}
+
+/* end of header */
+
+
+/* Popular Posts section */
+
+#popular_posts h1{
+  border-top: 1px solid #106db3;
+  text-align: center;
+  color: #083452;
+}
+
+.posts {
+  display: flex;
+  position: relative;
+}
+
+.posts article {
+  flex: 1 1 0;
+  height: 325px;
+}
+
+.posts h3 {
+  position: absolute;
+  bottom: 0px;
+}
+
+.another_cool_post {
+  background: url(article-image-1.jpg);
+}
+
+.post_title {
+  background: url(article-image-2.jpg);
+}
+
+.long_title {
+  background: url(article-image-3.jpg);
+}
+
+.cool_post {
+  background: url(article-image-4.jpg);
+}
+
+/* start of footer bar */
+
+footer {
+  background-color: #083452;
+  display: flex;
+  position: relative;
+}
+
+footer ul {
+  flex: 1 1 0;
+}
+
+footer ul li {
+  display: inline-block;
+  padding-right: 5px;
+  color: lightgray;
+}
+
+#copyright {
+  position: absolute;
+  top: 25px;
+}
