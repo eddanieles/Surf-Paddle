@@ -9,26 +9,39 @@ header {
   position: relative;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
 nav ul {
-  position: absolute;
+  display: flex;
 }
 
 nav ul li {
-  display: inline;
   list-style-type: none;
-  position: relative;
   padding-right: 5px;
   color: #083452;
 }
 
 header .right {
+  position: absolute;
   right: 115px;
   top: 12px;
   font-weight: bold;
 }
 
+
+#logo {
+  position: absolute;
+  left: 115px;
+}
+
 #blog_link {
-  bottom: 15px;
+  position: absolute;
+  top: 28px;
+  left: 175px;
 }
 
 header h1 {
@@ -50,6 +63,25 @@ header h6 {
 
 /* end of header */
 
+/* start of article */
+#article_icons {
+   display: flex;
+   justify-content: space-around;
+}
+
+#article_icons li {
+  background-color: lightgray;
+  flex: 1 1 0;
+  list-style-type: none;
+  color: white;
+  margin-right: 15px;
+}
+
+#article_icons img {
+  background-color: gray;
+  padding: 5px;
+}
+/* end of article */
 
 /* Popular Posts section */
 
@@ -57,6 +89,9 @@ header h6 {
   border-top: 1px solid #106db3;
   text-align: center;
   color: #083452;
+  padding-top: 30px;
+  font-size: 50px;
+  font-weight: 900;
 }
 
 .posts {
