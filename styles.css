@@ -83,13 +83,13 @@ header h6 {
   bottom: -5px;
 }
 
-.main_article h1 {
+#main_article h1 {
   font-size: 350%;
   color: #083452;
   margin-bottom: 0px;
 }
 
-.main_article p {
+#main_article p {
   margin-top: 35px;
 }
 
@@ -120,6 +120,15 @@ blockquote {
 }
 /* end of article */
 
+/* start of aside*/
+
+#ad_picture {
+  height: 300px;
+  width: 280px;
+  background: url(ad.jpg);
+}
+
+/* end of aside*/
 /* Popular Posts section */
 
 #popular_posts h1{
