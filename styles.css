@@ -64,17 +64,54 @@ header h6 {
 /* end of header */
 
 /* start of article */
+
+#below_heading {
+  position: relative;
+  padding-top: 10px;
+}
+#below_heading li {
+  display: inline-block;
+  font-size: small;
+  position: absolute;
+  bottom: 0px;
+
+}
+
+#below_heading img {
+  width: 30px;
+  position: absolute;
+  bottom: -5px;
+}
+
+.main_article h1 {
+  font-size: 350%;
+  color: #083452;
+  margin-bottom: 0px;
+}
+
+.main_article p {
+  margin-top: 35px;
+}
+
+blockquote {
+  border-left: 2px solid lightgray;
+  padding-left: 20px;
+  height: 60px;
+  font-size: xx-large;
+  color: #106db3;
+}
+
 #article_icons {
-   display: flex;
-   justify-content: space-around;
+  padding-left: 0px;
 }
 
 #article_icons li {
   background-color: lightgray;
-  flex: 1 1 0;
+  display: inline-block;
   list-style-type: none;
   color: white;
   margin-right: 15px;
+  width: 20%;
 }
 
 #article_icons img {
