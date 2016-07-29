@@ -1,3 +1,7 @@
+a:hover {
+   color: #106db3;
+}
+
 body {
   font-family: "Open Sans";
   margin: 0px;
@@ -65,6 +69,7 @@ header h6 {
 /* end of header */
 
 /* start of main */
+
 main {
   display: flex;
   width: 80%;
@@ -141,19 +146,6 @@ blockquote {
 
 /* start of aside*/
 
-#ad_picture {
-  height: 300px;
-  width: 280px;
-  background: url(ad.jpg);
-  margin-bottom: 0px;
-}
-
-#about_ad_link {
-    margin-top: 0px;
-    float: right;
-    font-size: smaller;
-}
-
 aside {
   margin-left: 25px;
 }
@@ -178,9 +170,30 @@ aside section {
 #social_links li {
   display: inline-block;
   font-size: small;
-  color: lightgray;
   border-right: 1px solid lightgray;
   padding-right: 5px;
+}
+
+#social_links a {
+  color: lightgray;
+  text-decoration: none;
+}
+
+#ad_picture {
+  height: 300px;
+  width: 280px;
+  background: url(ad.jpg);
+  margin-bottom: 0px;
+}
+
+#about_ad_link {
+  margin-top: 0px;
+  float: right;
+  font-size: smaller;
+}
+
+#about_ad_link a {
+  color: lightgray;
 }
 
 #sidebar_article h4 {
@@ -190,10 +203,10 @@ aside section {
 }
 
 #sidebar_article p {
-  color: lightgray;
   font-size: 94%;
   margin-top: 5px;
 }
+
 
 /* end of aside*/
 /* Popular Posts section */
@@ -207,34 +220,40 @@ aside section {
   font-weight: 900;
 }
 
-.posts {
+#posts {
   display: flex;
   position: relative;
+  background-color: #083452;
 }
 
-.posts article {
+#posts article {
   flex: 1 1 0;
   height: 325px;
+  opacity: 0.5;
 }
 
-.posts h3 {
+#posts article:hover {
+  opacity: 1;
+}
+
+#posts h3 {
   position: absolute;
   bottom: 0px;
 }
 
-.another_cool_post {
+#another_cool_post {
   background: url(article-image-1.jpg);
 }
 
-.post_title {
+#post_title {
   background: url(article-image-2.jpg);
 }
 
-.long_title {
+#long_title {
   background: url(article-image-3.jpg);
 }
 
-.cool_post {
+#cool_post {
   background: url(article-image-4.jpg);
 }
 
@@ -252,8 +271,10 @@ footer ul {
 
 footer ul li {
   display: inline-block;
-  padding-right: 5px;
+  padding-right: 10px;
+  padding-left: 5px;
   color: lightgray;
+  border-right: 1px solid black;
 }
 
 #copyright {
