@@ -1,5 +1,6 @@
 body {
   font-family: "Open Sans";
+  margin: 0px;
 }
 
 header {
@@ -63,6 +64,19 @@ header h6 {
 
 /* end of header */
 
+/* start of main */
+main {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  margin: auto;
+}
+
+#main_article {
+  margin-right: 34px;
+}
+/* end of main */
+
 /* start of article */
 
 #below_heading {
@@ -84,7 +98,7 @@ header h6 {
 }
 
 #main_article h1 {
-  font-size: 350%;
+  font-size: 275%;
   color: #083452;
   margin-bottom: 0px;
 }
@@ -111,7 +125,12 @@ blockquote {
   list-style-type: none;
   color: white;
   margin-right: 15px;
-  width: 20%;
+  width: 28%;
+  font-size: 85%;
+}
+
+#article_icons li:hover {
+  background-color: #106db3;
 }
 
 #article_icons img {
@@ -126,6 +145,54 @@ blockquote {
   height: 300px;
   width: 280px;
   background: url(ad.jpg);
+  margin-bottom: 0px;
+}
+
+#about_ad_link {
+    margin-top: 0px;
+    float: right;
+    font-size: smaller;
+}
+
+aside {
+  margin-left: 25px;
+}
+
+aside section {
+  margin-top: 75px;
+}
+
+#about_author {
+  text-align: center;
+}
+
+#about_author p {
+  margin: 0px;
+}
+
+#social_links {
+  margin: 0px;
+  padding-left: 0px;
+}
+
+#social_links li {
+  display: inline-block;
+  font-size: small;
+  color: lightgray;
+  border-right: 1px solid lightgray;
+  padding-right: 5px;
+}
+
+#sidebar_article h4 {
+  color: #106db3;
+  font-weight: 900;
+  margin-bottom: 0px;
+}
+
+#sidebar_article p {
+  color: lightgray;
+  font-size: 94%;
+  margin-top: 5px;
 }
 
 /* end of aside*/
