@@ -4,7 +4,7 @@ a:hover {
 
 body {
   font-family: "Open Sans";
-  margin: 0px;
+  margin: 0;
 }
 
 header {
@@ -24,10 +24,15 @@ nav ul {
   display: flex;
 }
 
-nav ul li {
+nav ul li{
   list-style-type: none;
+}
+
+.right a {
+  text-decoration: none;
   padding-right: 5px;
   color: #083452;
+  font-weight: bold;
 }
 
 header .right {
@@ -47,6 +52,11 @@ header .right {
   position: absolute;
   top: 28px;
   left: 175px;
+}
+
+#blog_link a {
+  color: #083452;
+  text-decoration: none;
 }
 
 header h1 {
@@ -128,10 +138,14 @@ blockquote {
   background-color: lightgray;
   display: inline-block;
   list-style-type: none;
-  color: white;
   margin-right: 15px;
   width: 28%;
   font-size: 85%;
+}
+
+#article_icons a {
+  color: white;
+  text-decoration: none;
 }
 
 #article_icons li:hover {
@@ -159,12 +173,12 @@ aside section {
 }
 
 #about_author p {
-  margin: 0px;
+  margin: 0;
 }
 
 #social_links {
-  margin: 0px;
-  padding-left: 0px;
+  margin: 0;
+  padding-left: 0;
 }
 
 #social_links li {
@@ -183,11 +197,13 @@ aside section {
   height: 300px;
   width: 280px;
   background: url(ad.jpg);
-  margin-bottom: 0px;
+  display: block;
+  margin-bottom: 0;
 }
 
+
 #about_ad_link {
-  margin-top: 0px;
+  margin-top: 0;
   float: right;
   font-size: smaller;
 }
@@ -241,6 +257,11 @@ aside section {
   bottom: 0px;
 }
 
+#posts h3 a {
+  color: black;
+  text-decoration: none;
+}
+
 #another_cool_post {
   background: url(article-image-1.jpg);
 }
@@ -277,6 +298,10 @@ footer ul li {
   border-right: 1px solid black;
 }
 
+#footer_links a {
+  color: lightgray;
+  text-decoration: none;
+}
 #copyright {
   position: absolute;
   top: 25px;
